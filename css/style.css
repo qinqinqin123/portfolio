@@ -84,9 +84,10 @@ h1{
     background: black;
   } 
   
-@media (min-width: @screen-sm-min) {
+@media (max-width: 767px) {
     .vt{width:0;}
     .hl{width:0;}
+    .cursor{z-index:-10000;}
 }
 
 /* ani */
