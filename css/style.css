@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,200,300,400,500,600,700&display=swap');
+
+
+body{
+    background-size: 15px 15px;
+    background-image: radial-gradient(circle,rgba(43, 43, 43, 0.509) 1px, rgba(0, 0, 0, 0) 1px);
+    cursor: none !important; 
+    font-weight: 300;
+    /* border-radius:0 !important; */
+  
+    /* background-image:
+        linear-gradient(to right, grey 1px, transparent 1px),
+        linear-gradient(to bottom, grey 1px, transparent 1px); */
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h5, h6, #mainNav, .a, body{
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(0, 0, 0);
+    }
+
+.lead, h4{
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(255,255,255);
+}
+
+p2{
+  line-height: 2;
+  font-weight:300;
+}
+
+ol{
+  padding-inline-start: 0;
+  list-style-position:inside;
+}
+
+p1{
+  font-weight: 400;
+}
+
+/* figure{
+
+} */
+
+
+.masthead{
+    height: 80vh;
+}
+
+h1{
+  /* animation: type 1s; */
+  overflow: hidden;
+  /* border-right: solid 3px rgba(0,255,0,.75); */
+  white-space: nowrap;
+}
+
+
+
+/* cursor */
+
+.cursor {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10000;
+  pointer-events: none;
+}
+  
+
+  .vt {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: black;
+  }
+  
+  .hl {
+    position: absolute;
+    height: 1px;
+    left: 0;
+    right: 0;
+    background: black;
+  } 
+  
+/* ani */
+#typewriter {
+  font-size: 36pt;
+  margin: 0;
+  color: rgb(65, 237, 171);
+}
+
+#typewriter:after {
+  content: "_";
+  animation: blink 500ms linear infinite alternate;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* filter */
+#portolio #container {
+    overflow: hidden;
+  }
+  
+  .filterDiv {
+    float: left;
+    display: none; /* Hidden by default */
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .tag {
+    outline: none;
+    padding: 20px 30px 3px 0;
+    /* background-color: #f1f1f1; */
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .tag > span{
+    border-bottom: 0 solid #dbdbdb; 
+  }
+  
+  /* Add a light grey background on mouse-over */
+  .tag:hover > span {
+    /* background-color: #ddd; */
+    border-bottom: 2px solid #dbdbdb;  
+  }
+  
+  /* Add a dark background to the active button */
+  .tag.active > span {
+    /* background-color: #666; */
+    border-bottom: 2px solid rgb(65, 237, 171);
+  }
+
+#myBtnContainer{
+    padding:20px 0;
+}
