@@ -84,6 +84,11 @@ h1{
     background: black;
   } 
   
+@media (min-width: @screen-sm-min) {
+    .vt{width:0;}
+    .hl{width:0;}
+}
+
 /* ani */
 #typewriter {
   font-size: 36pt;
