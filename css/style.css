@@ -37,6 +37,12 @@ p1{
   font-weight: 400;
 }
 
+h6{
+  font-family: 'IBM Plex Mono', monospace;
+  color: rgb(65, 237, 171);
+  font-weight: 400;
+}
+
 /* figure{
 
 } */
