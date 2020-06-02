@@ -4,7 +4,7 @@
 body{
     background-size: 15px 15px;
     background-image: radial-gradient(circle,rgba(43, 43, 43, 0.4) 0.8px, rgba(0, 0, 0, 0) 0.8px);
-    cursor: none !important; 
+    /* cursor: none !important;  */
     font-weight: 300;
     /* border-radius:0 !important; */
   
@@ -67,7 +67,7 @@ h1{
 
 /* cursor */
 
-.cursor {
+/* .cursor {
   position: fixed;
   top: 0;
   right: 0;
@@ -75,10 +75,10 @@ h1{
   left: 0;
   z-index: 10000;
   pointer-events: none;
-}
+} */
   
 
-  .vt {
+  /* .vt {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -92,7 +92,7 @@ h1{
     left: 0;
     right: 0;
     background: rgba(43, 43, 43, 0.509);
-  } 
+  }  */
   
 @media (max-width: 767px) {
     .vt{width:0;}
